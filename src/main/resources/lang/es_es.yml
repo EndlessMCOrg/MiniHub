@@ -1,8 +1,0 @@
-# Archivo de idioma MiniHub - Español
-# Admite reemplazo de variables usando el formato {variable}
-
-# Mensajes de comando
-command.player_only: "§cSolo los jugadores pueden ejecutar este comando"
-command.server_not_found: "§cServidor no encontrado"
-command.server_offline: "§cEl servidor objetivo no está disponible actualmente"
-command.teleporting: "§aTeletransportándote al servidor §e{server} §a..."

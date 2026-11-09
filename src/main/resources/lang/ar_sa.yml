@@ -1,8 +1,0 @@
-# ملف لغة MiniHub - العربية
-# يدعم استبدال المتغيرات باستخدام تنسيق {متغير}
-
-# رسائل الأوامر
-command.player_only: "§cيمكن للاعبين فقط تنفيذ هذا الأمر"
-command.server_not_found: "§cالخادم غير موجود"
-command.server_offline: "§cالخادم الهدف غير متاح حالياً"
-command.teleporting: "§aيتم نقلك إلى خادم §e{server} §a..."

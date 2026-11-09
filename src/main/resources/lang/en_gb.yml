@@ -1,8 +1,0 @@
-# MiniHub Language File - British English
-# Supports variable replacement using {variable} format
-
-# Command messages
-command.player_only: "§cOnly players can execute this command"
-command.server_not_found: "§cServer not found"
-command.server_offline: "§cTarget server is currently unavailable"
-command.teleporting: "§aTeleporting you to §e{server} §aserver..."

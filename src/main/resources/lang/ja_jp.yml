@@ -1,8 +1,0 @@
-# MiniHub 言語ファイル - 日本語
-# 変数置換をサポート、{変数名} フォーマットを使用
-
-# コマンドメッセージ
-command.player_only: "§cこのコマンドはプレイヤーのみが実行できます"
-command.server_not_found: "§cサーバーが見つかりません"
-command.server_offline: "§cターゲットサーバーは現在利用できません"
-command.teleporting: "§a§e{server} §aサーバーにテレポート中..."

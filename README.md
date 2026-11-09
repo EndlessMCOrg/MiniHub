@@ -37,6 +37,8 @@ servers:
     commands: ["creative", "crea"]
 ```
 
+Available language values: `zh_cn`, `zh_hk`, `zh_tw`, `en_us`.
+
 ## Command Usage
 
 According to the configuration settings, players can use corresponding commands to teleport to target servers:
@@ -64,6 +66,8 @@ The version can be overridden at build time, for example: `mvn clean package -Dr
 - License changed to MIT
 - Removed unused code and unused language keys
 - Added `.gitignore`
+- Trimmed language files to Simplified Chinese, Traditional Chinese (Hong Kong/Taiwan) and American English
+- Removed duplicate translated README files; `README.md` is now bilingual (Simplified Chinese and American English)
 
 ### v1.0-SNAPSHOT
 - Initial version release
@@ -110,6 +114,8 @@ servers:
     commands: ["creative", "crea"]
 ```
 
+可选语言值：`zh_cn`、`zh_hk`、`zh_tw`、`en_us`。
+
 ## 命令使用
 
 根据配置文件中的设置，玩家可以使用相应的命令传送到目标服务器：
@@ -137,6 +143,8 @@ servers:
 - 许可证变更为 MIT
 - 清理无效代码与未使用的语言键
 - 补充 .gitignore
+- 精简语言文件，仅保留简体中文、繁体中文（香港/台湾）与美式英语
+- 删除重复的翻译 README，README.md 现为简体中文与美式英语双语
 
 ### v1.0-SNAPSHOT
 - 初始版本发布

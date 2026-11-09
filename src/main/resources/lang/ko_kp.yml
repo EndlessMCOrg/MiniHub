@@ -1,8 +1,0 @@
-# MiniHub 언어 파일 - 한국어 (조선민주주의인민공화국)
-# 변수 치환 지원, {변수명} 형식 사용
-
-# 명령어 메시지
-command.player_only: "§c이 명령어는 플레이어만 실행할 수 있습니다"
-command.server_not_found: "§c서버를 찾을 수 없습니다"
-command.server_offline: "§c대상 서버가 현재 사용 불가능합니다"
-command.teleporting: "§a§e{server} §a서버로 텔레포트 중..."
