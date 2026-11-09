@@ -1,13 +1,8 @@
 # MiniHub хэлний файл - Монгол хэл
 # Хувьсагч орлуулалтыг дэмждэг, {хувьсагч} форматыг ашиглана
 
-# Plugin мэдэгдэл
-plugin.enabled: "§aMiniHub plugin идэвхжсэн"
-plugin.disabled: "§cMiniHub plugin идэвхгүй болсон"
-
 # Команд мэдэгдэл
 command.player_only: "§cЗөвхөн тоглогч энэ командыг гүйцэтгэх боломжтой"
 command.server_not_found: "§cСервер олдсонгүй"
 command.server_offline: "§cЗорилтот сервер одоогоор ашиглах боломжгүй байна"
 command.teleporting: "§aТаныг §e{server} §aсервер рүү телепортлох..."
-command.no_permission: "§cТа энэ командыг ашиглах эрхгүй байна"

@@ -51,8 +51,19 @@ According to the configuration settings, players can use corresponding commands 
 - **Build Tool**: Maven
 - **Dependency Management**: Maven
 - **Supported Platform**: Velocity Proxy
+- **Repository**: https://github.com/EndlessMCOrg/MiniHub/
+- **Authors**: OutHimic, EndlessMCOrg
+- **License**: MIT
+
+The version can be overridden at build time, for example: `mvn clean package -Drevision=1.2.0`.
 
 ## Changelog
+
+### v1.1-SNAPSHOT
+- Moved to the EndlessMC Organization (package, authors and repository updated)
+- License changed to MIT
+- Removed unused code and unused language keys
+- Added `.gitignore`
 
 ### v1.0-SNAPSHOT
 - Initial version release
@@ -113,9 +124,19 @@ servers:
 - **构建工具**: Maven
 - **依赖管理**: Maven
 - **支持平台**: Velocity Proxy
+- **仓库地址**: https://github.com/EndlessMCOrg/MiniHub/
+- **作者**: OutHimic、EndlessMCOrg
+- **许可证**: MIT
 
+构建时可指定版本号，例如：`mvn clean package -Drevision=1.2.0`。
 
 ## 更新日志
+
+### v1.1-SNAPSHOT
+- 项目迁移至 EndlessMC Organization（包名、作者与仓库地址更新）
+- 许可证变更为 MIT
+- 清理无效代码与未使用的语言键
+- 补充 .gitignore
 
 ### v1.0-SNAPSHOT
 - 初始版本发布
@@ -123,3 +144,7 @@ servers:
 - 多语言支持
 
 - 配置文件系统
+
+## 许可证
+
+本项目使用 MIT 许可证，详见 [LICENSE](LICENSE)。

@@ -1,13 +1,8 @@
 # MiniHub Sprachdatei - Deutsch
 # Unterstützt Variablenersetzung mit {variable} Format
 
-# Plugin-Nachrichten
-plugin.enabled: "§aMiniHub Plugin aktiviert"
-plugin.disabled: "§cMiniHub Plugin deaktiviert"
-
 # Befehlsnachrichten
 command.player_only: "§cNur Spieler können diesen Befehl ausführen"
 command.server_not_found: "§cServer nicht gefunden"
 command.server_offline: "§cZielserver ist derzeit nicht verfügbar"
 command.teleporting: "§aTeleportiere dich zum §e{server} §aServer..."
-command.no_permission: "§cDu hast keine Berechtigung, diesen Befehl zu verwenden"

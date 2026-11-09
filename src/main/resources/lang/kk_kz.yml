@@ -1,13 +1,8 @@
 # MiniHub тіл файлы - Қазақ тілі
 # Айнымалы ауыстыруды қолдайды, {айнымалы} пішімін қолданыңыз
 
-# Плагин хабарлары
-plugin.enabled: "§aMiniHub плагині қосылды"
-plugin.disabled: "§cMiniHub плагині өшірілді"
-
 # Пәріз хабарлары
 command.player_only: "§cБұл пәрізді тек ойыншы орындай алады"
 command.server_not_found: "§cСервер табылмады"
 command.server_offline: "§cМақсатты сервер қазіргі уақытта қолжетімсіз"
 command.teleporting: "§aСізді §e{server} §aсерверіне телепортациялау..."
-command.no_permission: "§cСізде бұл пәрізді қолдануға рұқсат жоқ"

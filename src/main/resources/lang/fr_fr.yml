@@ -1,13 +1,8 @@
 # Fichier de langue MiniHub - Français
 # Prend en charge le remplacement de variables en utilisant le format {variable}
 
-# Messages du plugin
-plugin.enabled: "§aPlugin MiniHub activé"
-plugin.disabled: "§cPlugin MiniHub désactivé"
-
 # Messages de commande
 command.player_only: "§cSeuls les joueurs peuvent exécuter cette commande"
 command.server_not_found: "§cServeur non trouvé"
 command.server_offline: "§cLe serveur cible est actuellement indisponible"
 command.teleporting: "§aTéléportation vers le serveur §e{server} §a..."
-command.no_permission: "§cVous n'avez pas la permission d'utiliser cette commande"

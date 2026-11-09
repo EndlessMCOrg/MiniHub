@@ -1,13 +1,8 @@
 # MiniHub 言語ファイル - 日本語
 # 変数置換をサポート、{変数名} フォーマットを使用
 
-# プラグインメッセージ
-plugin.enabled: "§aMiniHub プラグインが有効になりました"
-plugin.disabled: "§cMiniHub プラグインが無効になりました"
-
 # コマンドメッセージ
 command.player_only: "§cこのコマンドはプレイヤーのみが実行できます"
 command.server_not_found: "§cサーバーが見つかりません"
 command.server_offline: "§cターゲットサーバーは現在利用できません"
 command.teleporting: "§a§e{server} §aサーバーにテレポート中..."
-command.no_permission: "§cこのコマンドを使用する権限がありません"

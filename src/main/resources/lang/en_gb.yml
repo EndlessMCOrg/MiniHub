@@ -1,13 +1,8 @@
 # MiniHub Language File - British English
 # Supports variable replacement using {variable} format
 
-# Plugin messages
-plugin.enabled: "§aMiniHub plugin enabled"
-plugin.disabled: "§cMiniHub plugin disabled"
-
 # Command messages
 command.player_only: "§cOnly players can execute this command"
 command.server_not_found: "§cServer not found"
 command.server_offline: "§cTarget server is currently unavailable"
 command.teleporting: "§aTeleporting you to §e{server} §aserver..."
-command.no_permission: "§cYou don't have permission to use this command"

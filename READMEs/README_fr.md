@@ -54,8 +54,18 @@ Selon les paramètres de configuration, les joueurs peuvent utiliser les command
 
 ## Journal des modifications
 
+### v1.1-SNAPSHOT
+- Projet transféré à EndlessMC Organization (paquet, auteurs et dépôt mis à jour)
+- Licence changée en MIT
+- Suppression du code inutilisé et des clés de langue inutilisées
+- Ajout du fichier `.gitignore`
+
 ### v1.0-SNAPSHOT
 - Version initiale publiée
 - Fonctionnalité de téléportation par commande de base
 - Support multilingue
 - Système de fichiers de configuration
+
+## Licence
+
+Ce projet est sous licence MIT. Voir [LICENSE](../LICENSE) pour plus de détails.

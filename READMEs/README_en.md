@@ -54,8 +54,18 @@ According to the configuration settings, players can use corresponding commands 
 
 ## Changelog
 
+### v1.1-SNAPSHOT
+- Moved to the EndlessMC Organization (package, authors and repository updated)
+- License changed to MIT
+- Removed unused code and unused language keys
+- Added `.gitignore`
+
 ### v1.0-SNAPSHOT
 - Initial version release
 - Basic command teleportation functionality
 - Multi-language support
 - Configuration file system
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](../LICENSE) for details.

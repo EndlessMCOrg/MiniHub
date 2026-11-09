@@ -1,13 +1,8 @@
 # MiniHub 語言文件 - 繁體中文（香港）
 # 支援變數替換，使用 {變數名} 格式
 
-# 插件消息
-plugin.enabled: "§aMiniHub 插件已啟用"
-plugin.disabled: "§cMiniHub 插件已停用"
-
 # 命令消息
 command.player_only: "§c只有玩家才能執行此命令"
 command.server_not_found: "§c伺服器未找到"
 command.server_offline: "§c目標伺服器目前不可用"
 command.teleporting: "§a正在將您傳送到 §e{server} §a伺服器..."
-command.no_permission: "§c您沒有權限使用此命令"

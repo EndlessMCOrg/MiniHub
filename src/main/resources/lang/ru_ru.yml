@@ -1,13 +1,8 @@
 # Файл языка MiniHub - Русский
 # Поддерживает замену переменных с использованием формата {переменная}
 
-# Сообщения плагина
-plugin.enabled: "§aПлагин MiniHub включен"
-plugin.disabled: "§cПлагин MiniHub выключен"
-
 # Сообщения команд
 command.player_only: "§cТолько игроки могут выполнять эту команду"
 command.server_not_found: "§cСервер не найден"
 command.server_offline: "§cЦелевой сервер в настоящее время недоступен"
 command.teleporting: "§aТелепортирую вас на сервер §e{server} §a..."
-command.no_permission: "§cУ вас нет разрешения на использование этой команды"
