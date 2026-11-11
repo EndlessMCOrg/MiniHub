@@ -14,7 +14,7 @@ import java.nio.file.Path;
 @Plugin(
         id = "minihub",
         name = "MiniHub",
-        version = "1.1-SNAPSHOT",
+        version = "1.2",
         description = "简单的命令到服务器的实现。",
         url = "https://github.com/EndlessMCOrg/MiniHub/",
         authors = {"OutHimic", "EndlessMCOrg"}
