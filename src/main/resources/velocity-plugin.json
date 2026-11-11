@@ -6,5 +6,5 @@
   "url": "https://github.com/EndlessMCOrg/MiniHub/",
   "authors": ["OutHimic", "EndlessMCOrg"],
   "dependencies": [],
-  "main": "org.endlessmc.minihub.MiniHub"
+  "main": "org.endlessmc.minihub.velocity.MiniHubVelocity"
 }

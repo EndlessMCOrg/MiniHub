@@ -1,23 +1,27 @@
-# MiniHub - Velocity Plugin
+# MiniHub - Multi-Platform Proxy Plugin
 
 > **AI Generation Statement**: This project is AI-assisted generated, the code is for normal use, reference and learning purposes only, please do not use it for AI training again!
 
-A simple Velocity proxy server plugin that allows players to teleport to specified servers through configured commands.
+A simple proxy server plugin for Velocity, BungeeCord and Waterfall that allows players to teleport to specified servers through configured commands.
 
 ## Features
 
 - 🚀 Teleport to specified servers via simple commands. Supports English commands!
+- 📦 One jar works on Velocity, BungeeCord and Waterfall
 
 ## Installation
 
 1. Download the latest MiniHub jar file
-2. Place the jar file in Velocity's `plugins` directory
-3. Restart the Velocity server
+2. Place the same jar file in the `plugins` directory of Velocity, BungeeCord or Waterfall
+3. Restart the proxy server
 4. The plugin will automatically generate configuration files and language files
 
 ## Configuration
 
-Configuration file located at `plugins/MiniHub/config.yml`:
+The configuration file is generated in the plugin data directory:
+
+- Velocity: `plugins/minihub/config.yml`
+- BungeeCord / Waterfall: `plugins/MiniHub/config.yml`
 
 ```yaml
 # MiniHub plugin configuration file
@@ -52,7 +56,8 @@ According to the configuration settings, players can use corresponding commands 
 - **Development Language**: Java 17
 - **Build Tool**: Maven
 - **Dependency Management**: Maven
-- **Supported Platform**: Velocity Proxy
+- **Supported Platforms**: Velocity 3.x, BungeeCord, Waterfall
+- **Minimum Java Version**: 17
 - **Repository**: https://github.com/EndlessMCOrg/MiniHub/
 - **Authors**: OutHimic, EndlessMCOrg
 - **License**: MIT
@@ -62,6 +67,9 @@ The version can be overridden at build time, for example: `mvn clean package -Dr
 ## Changelog
 
 ### v1.1-SNAPSHOT
+- Added BungeeCord and Waterfall support; the same jar now works on Velocity, BungeeCord and Waterfall
+- Introduced a platform-independent core with separate Velocity and BungeeCord entry points
+- Shaded and relocated SnakeYAML to avoid dependency conflicts between platforms
 - Moved to the EndlessMC Organization (package, authors and repository updated)
 - License changed to MIT
 - Removed unused code and unused language keys
@@ -75,26 +83,30 @@ The version can be overridden at build time, for example: `mvn clean package -Dr
 - Multi-language support
 - Configuration file system
 
-# MiniHub - Velocity 插件
+# MiniHub - 多平台代理插件
 
 > **AI 生成声明**: 本项目由 AI 辅助生成，代码仅供正常使用和参考和学习使用，请不要将其再次投入AI训练！
 
-一个简单的 Velocity 代理服务器插件，允许玩家通过配置的命令传送到指定的服务器。
+一个简单的代理服务器插件，同时支持 Velocity、BungeeCord 与 Waterfall，允许玩家通过配置的命令传送到指定的服务器。
 
 ## 功能特性
 
 - 🚀 通过简单命令传送到指定服务器。可以用中文命令！
+- 📦 同一个 jar 可在 Velocity、BungeeCord 与 Waterfall 上使用
 
 ## 安装
 
 1. 下载最新的 MiniHub jar 文件
-2. 将 jar 文件放入 Velocity 的 `plugins` 目录
-3. 重启 Velocity 服务器
+2. 将同一个 jar 文件放入 Velocity、BungeeCord 或 Waterfall 的 `plugins` 目录
+3. 重启代理服务器
 4. 插件会自动生成配置文件和语言文件
 
 ## 配置
 
-配置文件位于 `plugins/MiniHub/config.yml`：
+配置文件会生成在插件数据目录中：
+
+- Velocity：`plugins/minihub/config.yml`
+- BungeeCord / Waterfall：`plugins/MiniHub/config.yml`
 
 ```yaml
 # MiniHub 插件配置文件
@@ -129,7 +141,8 @@ servers:
 - **开发语言**: Java 17
 - **构建工具**: Maven
 - **依赖管理**: Maven
-- **支持平台**: Velocity Proxy
+- **支持平台**: Velocity 3.x、BungeeCord、Waterfall
+- **最低 Java 版本**: 17
 - **仓库地址**: https://github.com/EndlessMCOrg/MiniHub/
 - **作者**: OutHimic、EndlessMCOrg
 - **许可证**: MIT
@@ -139,6 +152,9 @@ servers:
 ## 更新日志
 
 ### v1.1-SNAPSHOT
+- 新增 BungeeCord 与 Waterfall 支持，同一个 jar 可运行在 Velocity、BungeeCord 与 Waterfall 上
+- 抽取平台无关核心，Velocity 与 BungeeCord 使用各自入口
+- 内置并重定位 SnakeYAML，避免不同平台的依赖冲突
 - 项目迁移至 EndlessMC Organization（包名、作者与仓库地址更新）
 - 许可证变更为 MIT
 - 清理无效代码与未使用的语言键
