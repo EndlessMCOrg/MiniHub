@@ -1,6 +1,6 @@
 package org.endlessmc.minihub;
 
-import org.slf4j.Logger;
+import org.endlessmc.minihub.platform.MiniLogger;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
 
@@ -18,10 +18,10 @@ import java.util.Map;
 public class ConfigManager {
 
     private final Path configFile;
-    private final Logger logger;
+    private final MiniLogger logger;
     private Map<String, Object> config = new HashMap<>();
 
-    public ConfigManager(Path dataDirectory, Logger logger) {
+    public ConfigManager(Path dataDirectory, MiniLogger logger) {
         this.configFile = dataDirectory.resolve("config.yml");
         this.logger = logger;
     }
@@ -39,7 +39,7 @@ public class ConfigManager {
 
             return true;
         } catch (IOException | RuntimeException e) {
-            logger.error("无法加载配置文件: {}", configFile, e);
+            logger.error("无法加载配置文件: " + configFile, e);
             return false;
         }
     }
@@ -60,7 +60,7 @@ public class ConfigManager {
 
         String header = "# MiniHub 插件配置文件\n\n"
                 + "# 使用的语言\n"
-                + "# 语言文件位于 plugins/MiniHub/lang/ 目录下\n\n"
+                + "# 语言文件位于插件数据目录的 lang/ 目录下\n\n"
                 + "# 服务器命令配置\n"
                 + "# 格式: 服务器名称 -> 命令列表\n";
 

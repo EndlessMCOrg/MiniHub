@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>MiniHub</name>
-    <description>一个简单的 Velocity 命令传送插件。</description>
+    <description>一个同时支持 Velocity、BungeeCord 与 Waterfall 的命令传送插件。</description>
     <url>https://github.com/EndlessMCOrg/MiniHub/</url>
 
     <licenses>
@@ -42,7 +42,7 @@
 
     <properties>
         <!-- 可在构建时覆盖版本号，例如：mvn clean package -Drevision=1.2.0 -->
-        <revision>1.1-SNAPSHOT</revision>
+        <revision>1.2</revision>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -62,7 +62,30 @@
                 <version>3.13.0</version>
                 <configuration>
                     <release>${java.version}</release>
+                    <proc>none</proc>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.5.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <relocations>
+                                <relocation>
+                                    <pattern>org.yaml.snakeyaml</pattern>
+                                    <shadedPattern>org.endlessmc.minihub.lib.snakeyaml</shadedPattern>
+                                </relocation>
+                            </relocations>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
@@ -72,6 +95,10 @@
             <id>papermc-repo</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
+        <repository>
+            <id>central-snapshots</id>
+            <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -79,6 +106,12 @@
             <groupId>com.velocitypowered</groupId>
             <artifactId>velocity-api</artifactId>
             <version>3.4.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-api</artifactId>
+            <version>26.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

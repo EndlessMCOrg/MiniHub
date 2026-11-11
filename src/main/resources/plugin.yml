@@ -1,0 +1,5 @@
+name: MiniHub
+main: org.endlessmc.minihub.bungee.MiniHubBungee
+version: ${project.version}
+description: 简单的命令到服务器的实现
+author: OutHimic, EndlessMCOrg
